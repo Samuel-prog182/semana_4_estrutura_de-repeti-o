@@ -14,7 +14,7 @@ public class Principal {
         System.out.println("Digite 3 para Multiplo");
         System.out.println("Digite 4 para Fatorial");
         System.out.println("Digite 5 para Par ou Impar");
-        Scanner input = new Scanner(System.in);
+        Scanner input  = new Scanner(System.in);
         opcao = input.nextInt();
         if (opcao == 1) {
             e1.imprimir();
